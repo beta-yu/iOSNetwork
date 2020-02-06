@@ -6,17 +6,18 @@
 //  Copyright © 2020 com.qiyu. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "NavigationController.h"
 
-@interface ViewController ()
+@interface NavigationController ()
 
 @end
 
-@implementation ViewController
+@implementation NavigationController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    self.navigationBar.topItem.title = @"iOSNetwork";
 }
 
 

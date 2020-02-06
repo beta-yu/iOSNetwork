@@ -3,32 +3,48 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		7B07B92523EBC334000A0A16 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B07B92423EBC334000A0A16 /* AppDelegate.m */; };
 		7B07B92823EBC334000A0A16 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B07B92723EBC334000A0A16 /* SceneDelegate.m */; };
-		7B07B92B23EBC334000A0A16 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B07B92A23EBC334000A0A16 /* ViewController.m */; };
+		7B07B92B23EBC334000A0A16 /* NavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B07B92A23EBC334000A0A16 /* NavigationController.m */; };
 		7B07B92E23EBC334000A0A16 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B07B92C23EBC334000A0A16 /* Main.storyboard */; };
 		7B07B93023EBC337000A0A16 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7B07B92F23EBC337000A0A16 /* Assets.xcassets */; };
 		7B07B93323EBC337000A0A16 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B07B93123EBC337000A0A16 /* LaunchScreen.storyboard */; };
 		7B07B93623EBC337000A0A16 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B07B93523EBC337000A0A16 /* main.m */; };
+		7B07B93E23EBDB89000A0A16 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B07B93D23EBDB89000A0A16 /* TableViewController.m */; };
+		7B07B94223EBDC96000A0A16 /* ViewController1.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B07B94123EBDC96000A0A16 /* ViewController1.m */; };
+		7B07B94623EC1F93000A0A16 /* ViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B07B94523EC1F93000A0A16 /* ViewController2.m */; };
+		7B07B94923EC3ED4000A0A16 /* Weather.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B07B94823EC3ED4000A0A16 /* Weather.m */; };
+		B7285B8BCF73BEDAD06D0CFA /* Pods_iOSNetWork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B43C2C7FFA9660B0A9A174A6 /* Pods_iOSNetWork.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		411DD6507283C3798174C8D9 /* Pods-iOSNetWork.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSNetWork.debug.xcconfig"; path = "Target Support Files/Pods-iOSNetWork/Pods-iOSNetWork.debug.xcconfig"; sourceTree = "<group>"; };
 		7B07B92023EBC334000A0A16 /* iOSNetWork.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSNetWork.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B07B92323EBC334000A0A16 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		7B07B92423EBC334000A0A16 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		7B07B92623EBC334000A0A16 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
 		7B07B92723EBC334000A0A16 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
-		7B07B92923EBC334000A0A16 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		7B07B92A23EBC334000A0A16 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		7B07B92923EBC334000A0A16 /* NavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NavigationController.h; sourceTree = "<group>"; };
+		7B07B92A23EBC334000A0A16 /* NavigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NavigationController.m; sourceTree = "<group>"; };
 		7B07B92D23EBC334000A0A16 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7B07B92F23EBC337000A0A16 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7B07B93223EBC337000A0A16 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7B07B93423EBC337000A0A16 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7B07B93523EBC337000A0A16 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7B07B93C23EBDB89000A0A16 /* TableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		7B07B93D23EBDB89000A0A16 /* TableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
+		7B07B94023EBDC96000A0A16 /* ViewController1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController1.h; sourceTree = "<group>"; };
+		7B07B94123EBDC96000A0A16 /* ViewController1.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController1.m; sourceTree = "<group>"; };
+		7B07B94423EC1F93000A0A16 /* ViewController2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController2.h; sourceTree = "<group>"; };
+		7B07B94523EC1F93000A0A16 /* ViewController2.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController2.m; sourceTree = "<group>"; };
+		7B07B94723EC3ED4000A0A16 /* Weather.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Weather.h; sourceTree = "<group>"; };
+		7B07B94823EC3ED4000A0A16 /* Weather.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Weather.m; sourceTree = "<group>"; };
+		937DBC8A6BE11FE1DF91DFA5 /* Pods-iOSNetWork.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSNetWork.release.xcconfig"; path = "Target Support Files/Pods-iOSNetWork/Pods-iOSNetWork.release.xcconfig"; sourceTree = "<group>"; };
+		B43C2C7FFA9660B0A9A174A6 /* Pods_iOSNetWork.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOSNetWork.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +52,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B7285B8BCF73BEDAD06D0CFA /* Pods_iOSNetWork.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -47,6 +64,8 @@
 			children = (
 				7B07B92223EBC334000A0A16 /* iOSNetWork */,
 				7B07B92123EBC334000A0A16 /* Products */,
+				F889785F8351F3C9EC0918D0 /* Pods */,
+				9C7508F0E4553B74D057E49D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -61,12 +80,16 @@
 		7B07B92223EBC334000A0A16 /* iOSNetWork */ = {
 			isa = PBXGroup;
 			children = (
+				7B07B94323EC1EA4000A0A16 /* WeatherForecast */,
+				7B07B93F23EBDC64000A0A16 /* SimpleNetworkRequest */,
 				7B07B92323EBC334000A0A16 /* AppDelegate.h */,
 				7B07B92423EBC334000A0A16 /* AppDelegate.m */,
 				7B07B92623EBC334000A0A16 /* SceneDelegate.h */,
 				7B07B92723EBC334000A0A16 /* SceneDelegate.m */,
-				7B07B92923EBC334000A0A16 /* ViewController.h */,
-				7B07B92A23EBC334000A0A16 /* ViewController.m */,
+				7B07B92923EBC334000A0A16 /* NavigationController.h */,
+				7B07B92A23EBC334000A0A16 /* NavigationController.m */,
+				7B07B93C23EBDB89000A0A16 /* TableViewController.h */,
+				7B07B93D23EBDB89000A0A16 /* TableViewController.m */,
 				7B07B92C23EBC334000A0A16 /* Main.storyboard */,
 				7B07B92F23EBC337000A0A16 /* Assets.xcassets */,
 				7B07B93123EBC337000A0A16 /* LaunchScreen.storyboard */,
@@ -76,6 +99,43 @@
 			path = iOSNetWork;
 			sourceTree = "<group>";
 		};
+		7B07B93F23EBDC64000A0A16 /* SimpleNetworkRequest */ = {
+			isa = PBXGroup;
+			children = (
+				7B07B94023EBDC96000A0A16 /* ViewController1.h */,
+				7B07B94123EBDC96000A0A16 /* ViewController1.m */,
+			);
+			path = SimpleNetworkRequest;
+			sourceTree = "<group>";
+		};
+		7B07B94323EC1EA4000A0A16 /* WeatherForecast */ = {
+			isa = PBXGroup;
+			children = (
+				7B07B94423EC1F93000A0A16 /* ViewController2.h */,
+				7B07B94523EC1F93000A0A16 /* ViewController2.m */,
+				7B07B94723EC3ED4000A0A16 /* Weather.h */,
+				7B07B94823EC3ED4000A0A16 /* Weather.m */,
+			);
+			path = WeatherForecast;
+			sourceTree = "<group>";
+		};
+		9C7508F0E4553B74D057E49D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B43C2C7FFA9660B0A9A174A6 /* Pods_iOSNetWork.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F889785F8351F3C9EC0918D0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				411DD6507283C3798174C8D9 /* Pods-iOSNetWork.debug.xcconfig */,
+				937DBC8A6BE11FE1DF91DFA5 /* Pods-iOSNetWork.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -83,9 +143,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7B07B93923EBC337000A0A16 /* Build configuration list for PBXNativeTarget "iOSNetWork" */;
 			buildPhases = (
+				DA03DA199DD6C7E2E13D46E8 /* [CP] Check Pods Manifest.lock */,
 				7B07B91C23EBC334000A0A16 /* Sources */,
 				7B07B91D23EBC334000A0A16 /* Frameworks */,
 				7B07B91E23EBC334000A0A16 /* Resources */,
+				4F529B76FD7487B775849191 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -141,14 +203,60 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4F529B76FD7487B775849191 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-iOSNetWork/Pods-iOSNetWork-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-iOSNetWork/Pods-iOSNetWork-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-iOSNetWork/Pods-iOSNetWork-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DA03DA199DD6C7E2E13D46E8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-iOSNetWork-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		7B07B91C23EBC334000A0A16 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7B07B92B23EBC334000A0A16 /* ViewController.m in Sources */,
+				7B07B94623EC1F93000A0A16 /* ViewController2.m in Sources */,
+				7B07B92B23EBC334000A0A16 /* NavigationController.m in Sources */,
 				7B07B92523EBC334000A0A16 /* AppDelegate.m in Sources */,
+				7B07B94223EBDC96000A0A16 /* ViewController1.m in Sources */,
+				7B07B94923EC3ED4000A0A16 /* Weather.m in Sources */,
 				7B07B93623EBC337000A0A16 /* main.m in Sources */,
+				7B07B93E23EBDB89000A0A16 /* TableViewController.m in Sources */,
 				7B07B92823EBC334000A0A16 /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -287,6 +395,7 @@
 		};
 		7B07B93A23EBC337000A0A16 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 411DD6507283C3798174C8D9 /* Pods-iOSNetWork.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -304,6 +413,7 @@
 		};
 		7B07B93B23EBC337000A0A16 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 937DBC8A6BE11FE1DF91DFA5 /* Pods-iOSNetWork.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
