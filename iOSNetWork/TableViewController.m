@@ -9,6 +9,8 @@
 #import "TableViewController.h"
 #import "ViewController1.h"
 #import "ViewController2.h"
+#import "ViewController3.h"
+#import "ViewController4.h"
 
 @interface TableViewController ()
 
@@ -27,7 +29,7 @@
     // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
     // self.navigationItem.rightBarButtonItem = self.editButtonItem;
     
-    self.cellTitles = @[@"SimpleNetworkRequest", @"WeatherForecast"];
+    self.cellTitles = @[@"SimpleNetworkRequest", @"WeatherForecast", @"GetNetworkStatus", @"SDWebImageLoadTransition"];
 }
 
 #pragma mark - Table view data source
@@ -60,6 +62,16 @@
         case 1: {
             ViewController2 *VC2 = [[ViewController2 alloc] init];
             [self.navigationController pushViewController:VC2 animated:YES];
+            break;
+        }
+        case 2: {
+            ViewController3 *VC3 = [[ViewController3 alloc] init];
+            [self.navigationController pushViewController:VC3 animated:YES];
+            break;
+        }
+        case 3: {
+            ViewController4 *VC4 = [[ViewController4 alloc] init];
+            [self.navigationController pushViewController:VC4 animated:YES];
             break;
         }
         default:
